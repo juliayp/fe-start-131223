@@ -1,0 +1,21 @@
+.giove{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.giove_1{
+    text-align: center;
+}
+.uranio{
+    display: block;
+    margin-left: auto;
+    margin-right: 10;
+}
+.uranio_1{
+    text-align: right;
+}
+.nettuno{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

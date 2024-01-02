@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+  .mercurio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.venera{
+    text-align: right;
+}
+.earth{
+    display: block;
+    margin-left: auto;
+    margin-right: 10;
+}
+.earth-1{
+    text-align: center;
+}
+.mars{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
