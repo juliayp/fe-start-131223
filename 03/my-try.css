@@ -1,6 +1,42 @@
 h3, h4, h5 {
     background-color: red;
-    text-align: right;
+    text-align: left;
 }
-
- 
+.kuku,.brbr {
+    color:blueviolet;
+}
+/* .brbr {
+    background-color: aqua;
+    color: beige;
+} */
+#hihi {
+    background-color: red;
+}
+ p{
+    color: green;
+ }
+div p b, #bobo {
+    color: orange;
+ }
+ p em:first-child {
+    color: pink;
+}
+ i:nth-last-child(4) {
+    color: rgb(234, 21, 21);
+}
+i:nth-of-type(2n+1) {
+    background-color: blueviolet;
+}
+del {
+    color: darkorange;
+}
+.table {
+    background-color: antiquewhite;
+    color: blue;
+}
+.green {
+    color: rgb(226, 43, 73);
+}
+.red {
+    color: aqua;
+}
