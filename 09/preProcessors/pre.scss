@@ -1,0 +1,45 @@
+// *{
+//     box-sizing: border-box;
+// }
+body{
+   background-color: green; 
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+}
+ul li{
+   padding: 10px;
+   background-color: red($color: #d02d2d);
+   color: yellow; 
+}
+ul li:hover{
+    background-color: blue;
+    color: rgb(167, 224, 167);
+}
+ul li::before{
+ content:"!!!";
+}
+// ul{
+//   margin: 0;
+//   padding: 0;
+//   list-style: none;
+//   li{
+//    padding: 10px;
+//    background-color: black;
+//    color: yellow;
+//    &:hover{
+//        background-color: rgb(88, 57, 167);
+//        color: yellow;
+//    }
+//    &::before{
+//       content:"!!!";
+//    }
+
+
+//   }   
+
+
+// }
+

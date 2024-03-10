@@ -35,8 +35,14 @@ body{
  }
  .sosial-block a{
   display: inline-block;
-  margin-right: 21px; 
+  margin-right: 21px;
+  font-size: 80px;
+  color: #f806cc;
  }
+ .sosial-block a:hover{
+  color: rgb(0, 255, 123);
+ }
+
  .sosial-block a:last-child{
   margin-right: 0;
  }

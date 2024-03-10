@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.simple-bg{
+  width: 1600px;
+  height: 1200px;
+  margin: 0 auto;
+  background-image: url("../06/img/avatar.png"),url("img/bg.jpeg");
+  /* background-image: url("../06/img/bg.png"); */
+  background-color: yellow;
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-y; */
+  /* background-position: top 200px left 300px; */
+  background-position: center;
+  background-size: cover;
+}
+.simple-bg:hover{
+ background-color: red;
+}

@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/07/img/backgrownd.png");
+    background-repeat: no-repeat;
+    background-color: rgb(43, 35, 35);
+    min-width: 800px;
+    width: 100%;
+    /* height: 1117px; */
+    margin: o auto;
+}
+.wrapper{
+    min-width: 800px;
+    width: 100%;
+    height: 1117px;
+    margin: o auto;
+}
+
