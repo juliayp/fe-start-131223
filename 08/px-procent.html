@@ -8,19 +8,67 @@
 </head>
 <body>
     <div id="wrapper">
-        <div id="header"></div>
+        <div id="header"><img src="/08/images/Header.png" alt="car"></div>
         <div id="content">
             <div id="nav">
                 <ul>
-                    <li> <a title="to main" href="px-procent.html">Chapter 1</a></li>
-                    <li> <a title="to main" href="px-procent.html">Chapter 2 </a></li>
-                    <li> <a title="to main" href="px-procent.html">Chapter 3 </a></li>
-                    <li> <a title="to main" href="px-procent.html">Chapter 4 </a></li>
+                    <li> <a title="to main" href="px-procent.html"><img src="/08/images/Logo.jpg" alt="logo"></a></li>
+                    <li> <a title="to main" href="px-procent.html">Link 2 </a></li>
+                    <li> <a title="to main" href="px-procent.html">Link 3 </a></li>
+                    <li> <a title="to main" href="px-procent.html">Link 4 </a></li>
                 </ul>
+                <div id="map"><img src="/08/images/Map.jpg" alt="map"></div>
             </div>
-            <div id="main"></div>
+            <div id="main">
+                <table>
+                    <tr>
+                      <th id="main-title" colspan="3"><h1>Главная</h1></th>  
+                    </tr>
+                    <tr>
+                      <td class="small-card">
+                        <img src="/08/images/Ghibli.jpg" alt="Ghibli">
+                        <small>sport-car</small>
+                        <h2>First car</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, minus.</p>
+                        <a href="px-procent.html" title="Ghibli">Перейти</a>
+                      </td>
+                      <td class="small-card">
+                        <img src="/08/images/Quatro.jpg" alt="Quatro">
+                        <small>sport car</small>
+                        <h2>First car</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, assumenda.</p>
+                        <a href="px-procent.html" title="Quatro">Перейти</a>
+                      </td>
+                      <td class="small-card">
+                        <img src="/08/images/Grand.jpg" alt="Grand">
+                        <small>sport car</small>
+                        <h2>First car</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, perferendis.</p>
+                        <a href="px-procent.html" title="Grand">Перейти</a>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td class="big-card" colspan="3">
+                        <img src="/08/images/Form.png" alt="Form">
+                        <form action="/Home/Order" method="post">
+                            <fieldset>
+                                <legend>Оформление заказа</legend>
+                                <input type="text" name="Name" placeholder="Введите ваше имя" required>
+                                <input type="tel" name="tel" placeholder="x-(xxx)-(xxx)-(xxxx)" required pattern="8-(0-9)(3)-(0-9)(3)-(0-9)(4)">
+                                <select name="Car">
+                                    <option value="Ghibil">Ghibil</option>
+                                    <option value="Quatro">Quatro</option>
+                                    <option value="Grand">Grand</option>
+                                </select>
+                                <input type="Submit">
+                            </fieldset>
+                        </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
-        <div id="footer"></div>
+        <div id="footer">Copyrite</div>
     </div>
 </body>
 </html>
